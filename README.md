@@ -4,9 +4,7 @@ A data-driven analysis and interactive dashboard exploring housing affordability
 
 ## Overview
 
-This project investigates the divergence between home prices and local wages, the spillover demand affecting the I-35 corridor, and the geographic distribution of affordable housing. The analysis is presented through two main components:
-1. **Interactive Dashboard**: A Streamlit application for exploring the data interactively.
-2. **Automated Presentation**: A Python script that programmatically generates a PowerPoint slide deck summarizing the key findings.
+This project investigates the divergence between home prices and local wages, the spillover demand affecting the I-35 corridor, and the geographic distribution of affordable housing. The analysis is presented through an **Interactive Dashboard**: A Streamlit application for exploring the data interactively.
 
 ## Data Sources
 
@@ -37,10 +35,3 @@ To launch the interactive Streamlit dashboard:
 streamlit run app.py
 ```
 
-### Generating the Presentation
-
-To build the final PowerPoint deck (`Austin_SanMarcos_Affordability.pptx`):
-
-```bash
-python build_pptx.py
-```
