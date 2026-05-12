@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open *)",
+      "Bash(grep *)",
+      "Bash(awk 'NR>1 {print $1}')",
+      "Bash(osascript *)"
+    ]
+  }
+}
